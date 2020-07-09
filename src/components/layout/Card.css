@@ -10,10 +10,11 @@ body{
     min-width: 400px;
     max-width: 400px;
     overflow: hidden;
+    border-radius: 35px;
+    border: 1px solid;
 }
 
 .Card .Header{
-    background-color: rgb(94, 0, 0);
     color: antiquewhite;
     display: flex;
     justify-content: center;

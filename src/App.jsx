@@ -13,23 +13,23 @@ export default () => (
   <>
     <h1>React App</h1> 
     <div className="Cards">
-      <Card title="#01A - Primeiro component">
+      <Card title="#01A - Primeiro component" color="#540d6e">
         <First />
       </Card>
 
-      <Card title="#01B - Primeiro component com fragmento">
+      <Card title="#01B - Primeiro component com fragmento" color="#ee4266">
         <FragmentA />
       </Card>
 
-      <Card title="#02 - Fragmento">
+      <Card title="#02 - Fragmento" color="#ffd23f">
         <FragmentB />
       </Card>
 
-      <Card title="#03 - Condicional">
+      <Card title="#03 - Condicional" color="#1f271b">
         <Third nota={7} name="Gabriel" />
       </Card>
 
-      <Card title="#04 - Props">
+      <Card title="#04 - Props" color="#a81031">
           <Secound
         title="This is a title"
         subtitle="This is a subtitle from origin"
