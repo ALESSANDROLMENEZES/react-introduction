@@ -7,7 +7,7 @@ export default props => {
     <div>
       <h2>O aluno {props.name}</h2>
       <h4>Foi {status}</h4>
-      <p>com a nota foi {props.nota}</p>
+      <p>com a nota <strong>{props.nota}</strong></p>
     </div>
     /* jshint ignore:end */
   );
