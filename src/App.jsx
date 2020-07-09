@@ -6,6 +6,7 @@ import FragmentA from './components/basics/FragmentA';
 import FragmentB from './components/basics/FragmentB';
 import Random from './components/basics/Randon';
 import Card from './components/layout/Card';
+import Father from './components/basics/Father';
 import './App.css';
 
 export default () => (
@@ -39,6 +40,11 @@ export default () => (
       <Card title="#05 - Random">
         <Random min={1} max={10}/>
       </Card>
+
+      <Card title="#06 - Father with child">
+        <Father name="Aline" lastname="Linda"/>
+      </Card>
+
     </div>
   </>
   /* jshint ignore:end */
