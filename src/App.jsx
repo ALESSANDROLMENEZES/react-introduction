@@ -8,7 +8,8 @@ import Random from './components/basics/Randon';
 import Card from './components/layout/Card';
 import Father from './components/basics/Father';
 import Child from './components/basics/Child';
-import Repeat from './components/basics/Repeat';
+import Repeat from './components/repetition/Repeat';
+import RepeatProducts from './components/repetition/RepeatProducts';
 import './App.css';
 
 export default () => (
@@ -17,6 +18,10 @@ export default () => (
     <h1>React App</h1> 
     <div className="Cards">
 
+      <Card title="#08 - Repeat products" color="#226f54">
+        <RepeatProducts />
+      </Card>
+      
       <Card title="#07 - Repeat" color="#226f54">
         <Repeat />
       </Card>

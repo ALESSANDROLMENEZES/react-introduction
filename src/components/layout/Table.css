@@ -1,0 +1,19 @@
+.Table{
+    border-collapse: collapse 1px;
+    text-align: center;
+    width: 100%;
+    min-width: 100%;
+}
+
+.Table-Header{
+    color: rgb(32, 106, 58);
+    border: 1px solid red;
+}
+
+.Table-Header tr{
+    height: 52px;
+}
+
+.Table-Header tr th{
+    border: 1px solid rgb(32, 106, 58);
+}

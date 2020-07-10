@@ -1,0 +1,8 @@
+.Table-Tr{
+    height: 40px;
+}
+
+.Table-Tr td{
+    font-size: 21px;
+    border: 1px solid rgb(122, 185, 144);
+}

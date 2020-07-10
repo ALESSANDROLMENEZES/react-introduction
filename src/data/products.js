@@ -1,0 +1,18 @@
+export default [
+    { id: 1, description: 'Pera', price: 15.00 },
+    { id: 2, description: 'Uva', price: 7.10 },
+    { id: 3, description: 'Maçã', price: 6.20 },
+    { id: 4, description: 'Abacate', price: 14.88 },
+    { id: 5, description: 'Tomarindo', price: 14.77 },
+    { id: 6, description: 'Amora', price: 5.55 },
+    { id: 7, description: 'Pitanga', price: 18.41 },
+    { id: 8, description: 'Cereja', price: 21.10 },
+    { id: 9, description: 'Banana', price: 17.89},
+    { id: 10, description: 'Tomate', price: 9.50 },
+    { id: 11, description: 'Melancia', price: 7.21 },
+    { id: 12, description: 'Jaboticaba', price: 11.80 },
+    { id: 13, description: 'Laranja', price: 11.79 },
+    { id: 14, description: 'Lima', price: 18.32 },
+    { id: 15, description: 'Limão', price: 21.80 },
+    { id: 16, description: 'Graviola', price: 5.40},
+];
