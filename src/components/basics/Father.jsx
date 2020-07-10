@@ -1,12 +1,11 @@
-import React from 'react';
-import Child from './Child';
+import React, {cloneElement} from 'react';
 
 export default props => (
 /* jshint ignore:start */
     <>
-        <Child name={props.name} lastname={props.lastname}/>
-        <Child name={props.name} lastname={props.lastname}/>
-        <Child name={props.name} lastname={props.lastname}/>
+        {props.children.map((child, i) => {
+            return cloneElement(child, { ...props, key: i });
+        })}
     </>
    /* jshint ignore:end */  
 );

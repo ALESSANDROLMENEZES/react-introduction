@@ -7,6 +7,8 @@ import FragmentB from './components/basics/FragmentB';
 import Random from './components/basics/Randon';
 import Card from './components/layout/Card';
 import Father from './components/basics/Father';
+import Child from './components/basics/Child';
+import Repeat from './components/basics/Repeat';
 import './App.css';
 
 export default () => (
@@ -14,6 +16,11 @@ export default () => (
   <>
     <h1>React App</h1> 
     <div className="Cards">
+
+      <Card title="#07 - Repeat" color="#226f54">
+        <Repeat />
+      </Card>
+      
       <Card title="#01A - Primeiro component" color="#540d6e">
         <First />
       </Card>
@@ -41,8 +48,13 @@ export default () => (
         <Random min={1} max={10}/>
       </Card>
 
-      <Card title="#06 - Father with child">
-        <Father name="Aline" lastname="Linda"/>
+      <Card title="#06 - Father el. with childs" color="#5e4ae3">
+        <Father lastname="Ferreira">
+          <Child name="João"/>
+          <Child name="Aline"/>
+          <Child name="Juliana"/>
+          <Child name="Pedro"/>
+        </Father>
       </Card>
 
     </div>
