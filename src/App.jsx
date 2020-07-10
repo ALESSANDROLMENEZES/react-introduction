@@ -10,6 +10,7 @@ import Father from './components/basics/Father';
 import Child from './components/basics/Child';
 import Repeat from './components/repetition/Repeat';
 import RepeatProducts from './components/repetition/RepeatProducts';
+import User from './components/basics/User';
 import './App.css';
 
 export default () => (
@@ -18,6 +19,11 @@ export default () => (
     <h1>React App</h1> 
     <div className="Cards">
 
+      <Card title="#09 - Condition" color="#ff2e00">
+        <User user={{name:'Alessandro'}}/>
+        <User user={{}}/>
+      </Card>
+      
       <Card title="#08 - Repeat products" color="#226f54">
         <RepeatProducts />
       </Card>
