@@ -12,6 +12,7 @@ import Repeat from './components/repetition/Repeat';
 import RepeatProducts from './components/repetition/RepeatProducts';
 import User from './components/basics/User';
 import FatherIndirect from './components/comunication/FatherIndirect';
+import Counter from './components/contador/Counter';
 import './App.css';
 
 export default () => (
@@ -20,6 +21,10 @@ export default () => (
     <h1>React App</h1> 
     <div className="Cards">
 
+      <Card title="#11 - Counter class" color="#226f54">
+        <Counter initialNumber={10}/>
+      </Card>
+      
       <Card title="#10 - Use state" color="#ee4266">
         <FatherIndirect/>
       </Card>
