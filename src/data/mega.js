@@ -9,8 +9,8 @@ const generateMegaSenaNumbers = qtd => {
             qtd++;
         }
     }
-    return numbers;
+    return numbers.sort((a, b)=> a - b);
 };
 
-console.log(generateMegaSenaNumbers(7).join(' - '));
-//export default generateMegaSenaNumbers;
+
+export default generateMegaSenaNumbers;
